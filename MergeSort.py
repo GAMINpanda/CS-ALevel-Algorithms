@@ -13,6 +13,8 @@ args = parser.parse_args()
 
 #Below is the actual code required for the Merge Sort
 #Merge Sort has Time Complexity: O(nlogn) Best Case, O(nlogn) Average Case, O(nlogn) Worst Case
+#Merge sort decomposes a list into individual parts and then merges them (making sure to sort along the way)
+#Larger space constraints than other algorithms since it needs to store each individual split side
 
 Array = args.array
 

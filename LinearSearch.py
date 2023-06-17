@@ -15,6 +15,7 @@ args = parser.parse_args()
 #Below is the actual code required for the linear search
 #Linear Search has Time Complexity: O(1) Best Case, O(n) Average Case, O(n) Worst Case
 #Linear Search doesn't require a list to be sorted
+#Just iterates through a list, comparing to each value
 
 array = args.array
 item = args.itemToFind

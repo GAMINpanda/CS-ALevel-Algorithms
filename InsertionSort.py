@@ -12,6 +12,7 @@ args = parser.parse_args()
 
 #Below is the actual code required for the Insertion Sort
 #Insertion Sort has Time Complexity: O(n) Best Case, O(n^2) Average Case, O(n^2) Worst Case
+#Builds a sorted list through comparing a value to each value in the list before inserting in the correct location
 
 array = args.array
 

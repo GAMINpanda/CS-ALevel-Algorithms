@@ -12,6 +12,7 @@ args = parser.parse_args()
 
 #Below is the actual code required for the Bubble Sort
 #Bubble sort has Time Complexity: O(n) Best Case, O(n^2) Average Case, O(n^2) Worst Case
+#Iterates through the list multiple times, comparing pairs of values to swap each time
 
 array = args.array
 

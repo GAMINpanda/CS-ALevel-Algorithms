@@ -16,6 +16,7 @@ args = parser.parse_args()
 #Below is the actual code required for the binary search
 #Binary Search has Time Complexity: O(1) Best Case, O(log n) Average Case, O(log n) Worst Case
 #Binary Search require as list to be sorted
+#'Divide and Conquer' approach - narrows down items that need to be compared every iteration
 
 array = args.array
 item = args.itemToFind
